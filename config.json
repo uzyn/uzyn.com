@@ -1,0 +1,26 @@
+{
+  "locals": {
+    "url": "http://uzyn.com",
+    "name": "U-Zyn Chua",
+    "owner": "U-Zyn Chua <chua@uzyn.com>",
+    "description": "on code, bitcoin and security."
+  },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 3
+  }
+}
